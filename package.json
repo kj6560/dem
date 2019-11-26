@@ -6,7 +6,8 @@
   "author": "Brian Mau",
   "scripts": {
     "start": "node server.js",
-    "debug": "node --nolazy --inspect --debug-brk=5858 ./server.js"
+    "debug": "node --nolazy --inspect --debug-brk=5858 ./server.js",
+    "build:  "video-chat build"
   },
   "dependencies": {
     "express": "^4.13.4",
