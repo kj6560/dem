@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "debug": "node --nolazy --inspect --debug-brk=5858 ./server.js",
-    "build:  "npm run build"
+    "build:  "npm run build --output public"
   },
   "dependencies": {
     "express": "^4.13.4",
